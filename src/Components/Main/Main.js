@@ -11,7 +11,7 @@ const Main = () => {
             </div>
              <div className='main-right'>
                 <p>YOU Think <br/> & <br/> WE Design</p>
-                <p>Brighten every nook and corner and make your dream house a reality with <br/> <b>Silver Fox</b>.</p>
+                <p>Brighten every nook and corner and make your dream house a reality with <b>Silver Fox</b>.</p>
                 <button> EXPLORE <span><NavigateNextIcon style={{ fontSize: 25 }} /> </span>  </button>
                  
                 </div>

@@ -1,5 +1,5 @@
 import './Main.css';
-import NavigateNextIcon from '@material-ui/icons/NavigateNext';
+
 
 const Main = () => {
     return (
@@ -12,7 +12,7 @@ const Main = () => {
              <div className='main-right'>
                 <p>YOU Think <br/> & <br/> WE Design</p>
                 <p>Brighten every nook and corner and make your dream house a reality with <b>Silver Fox</b>.</p>
-                <button> EXPLORE <span><NavigateNextIcon style={{ fontSize: 25 }} /> </span>  </button>
+                <button> EXPLORE  </button>
                  
                 </div>
             </div>

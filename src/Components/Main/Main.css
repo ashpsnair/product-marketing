@@ -9,6 +9,7 @@
 .main-core{
  display: flex;  
 color: white;
+padding-left: 30px;
 }
 
 .img-main{

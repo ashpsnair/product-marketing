@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100&display=swap');
+
+.page3{
+     width: 85%;
+    max-width: 1200px;
+      margin: auto;
+      color: white;
+   }
+
+
+.imgcontent {
+    width: 100%;
+   max-width: 1200px;
+    background-image: url("https://images.unsplash.com/photo-1602236449489-83fe556e61b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2166&q=80");
+    height: 350px;
+    margin: auto;
+  
+}
+
+.imgcontent div{
+    width: 100%;
+    max-width: 1200px;
+    background-color: #02142594;
+    height: 350px;
+}
+
+.imgcontent h1{
+    padding-top: 2%;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+text-indent: 1px;
+}
+
+.imgcontent ul{
+    list-style: none;
+    display: flex;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 37px;
+text-align: center;
+text-indent: 1px;
+}

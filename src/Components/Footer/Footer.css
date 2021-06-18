@@ -34,10 +34,3 @@ font-size: 14px;
 margin-top: 40px;
 }
 
-
-@media only screen and (min-height: 800px){
-    .foot{
-        position: absolute;
-        bottom: 0%;
-    }
-}

@@ -14,9 +14,8 @@ function App() {
       <Main />
       <Page2 />
       <Page3/>
-      <footer>
-        <Footer/>
-      </footer>
+      <Footer/>
+      
     </div>
   );
 }

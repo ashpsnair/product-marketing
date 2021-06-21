@@ -1,6 +1,5 @@
 import './Page3.css'
-import AcUnitIcon from '@material-ui/icons/AcUnit';
-
+import { ReactComponent as P3 } from './../../Images/p3.svg';
 
 const Page3 = () => {
     return (
@@ -19,17 +18,8 @@ const Page3 = () => {
             </div>
             <div className="page3-row">
                 <h1>Technology that makes our products long lasting</h1>
-              
-                <ul className="ul1">
-                    <div> <AcUnitIcon/> </div>
-                    <div>  </div>
-                    <div>  </div>
-                    
-                </ul>
-                <ul className="ul2">
-                    <div> </div>
-                    <div> </div>
-                </ul>
+                <div className="p3"><P3 x="30%" y="30%" width="100%" /></div>
+                
             </div>
          
         </div>

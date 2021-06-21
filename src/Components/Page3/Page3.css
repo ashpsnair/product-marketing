@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 .page3{
      width: 85%;
     max-width: 1200px;
@@ -12,7 +12,7 @@
     width: 100%;
    max-width: 1200px;
     background-image: url("https://images.unsplash.com/photo-1602236449489-83fe556e61b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2166&q=80");
-    height: 350px;
+    height: 300px;
     margin: auto;
   
 }
@@ -20,13 +20,14 @@
 .imgcontent div{
     width: 100%;
     max-width: 1200px;
-    background-color: #02142594;
-    height: 350px;
+    background-color: #021425b9;
+    height: 300px;
+    
 }
 
 .imgcontent h1{
     padding-top: 2%;
-    font-family: Roboto;
+     font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 40px;
@@ -35,14 +36,54 @@ text-align: center;
 text-indent: 1px;
 }
 
-.imgcontent ul{
-    list-style: none;
-    display: flex;
-    font-family: Roboto;
+.imgcontent ol{
+     display: flex;
+    font-family: Noto Sans;
+font-style: normal;
+font-size: 24px;
+line-height: 24px;
+padding-top: 3%;
+padding-bottom: 3%;
+}
+
+.imgcontent li{
+    width: 150px;
+    margin: 3%;
+}
+
+.page3-row{
+    margin-top: 50px;
+  
+}
+
+.page3-row h1{
+ font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 32px;
-line-height: 37px;
+font-size: 36px;
+line-height: 47px;
 text-align: center;
 text-indent: 1px;
+
+
+}
+
+.ul1{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+
+}
+.ul2{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+}
+
+.page3-row ul div{
+  
+    margin: auto;
+    text-align: center;
 }

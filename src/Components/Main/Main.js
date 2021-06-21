@@ -1,5 +1,6 @@
 import './Main.css';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
+import { ReactComponent as Mainrow } from './../../Images/main.svg';
 
 const Main = () => {
     return (
@@ -18,13 +19,8 @@ const Main = () => {
             </div>
             <div>
                 <div className="row1">
-                    <ul>
-                        <li>No Hidden Charges</li>
-                        <li>100+ Quality checks</li>
-                        <li>30 days Installation</li>
-                        <li>24/7 Customer Support</li>
-                    </ul>
-
+                    <Mainrow x="30%" y="30%" width="100%" />
+                   
                 </div>
             </div>
             

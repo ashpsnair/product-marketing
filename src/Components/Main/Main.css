@@ -3,8 +3,7 @@
      width: 80%;
      max-width: 1200px;
      margin: auto;
-     margin-top: 20px;
-    
+       
 }
 .main-core{
  display: flex;  
@@ -81,28 +80,10 @@ font-size: 18px;
 }
 
 .row1{
-     margin-top: 50px;
+      width: 90%;
+     margin: auto;
+    margin-top: 5%;
 }
-
-.row1 ul{
-    width: 90%;
-    margin:auto;
-    max-width: 1100px;
-    list-style: none;
-    display: flex;
-    color: white;
-    margin-bottom: 50px;
-}
-
-.row1 ul li{
-    margin: auto;
-    font-family: Roboto;
-    font-size: 18px;
-line-height: 22px;
-width: 120px;
-
-}
-
 
 
 /** ############# Media Query ################### **/

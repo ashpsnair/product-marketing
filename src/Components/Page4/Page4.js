@@ -13,7 +13,7 @@ function Page4() {
                 <h1>Listen to what our Customers have to say</h1>
                 <div className="customer">
                     <div className="customer-inner">
-                        <img src="https://images.unsplash.com/photo-1619895862022-09114b41f16f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="customer" />
+                        <img src="https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="customer" />
                      <div className="customer-content">
                        The right choice to get your home interior done <br/><br/><br/>
                          <b>Annette</b> 

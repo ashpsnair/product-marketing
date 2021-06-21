@@ -7,27 +7,17 @@
     display: flex;
     color: white;
     margin-top: 20px;
-   
-}
 
+}
 .icon1{
-    position: absolute;
-    border: solid white;
-    width: 50px;
-    text-align: center;
-    font-family: Roboto; 
-color: white;
-font-size: 20px;
-line-height: 33px;
-margin-left: 20px;
+   
+    width: 9%;
 }
-
 .nav ul{
-    
     list-style: none;
     display: flex;
-    width: 80%;
-    max-width: 800px;
+    width: 100%;
+    max-width: 1000px;
     margin: auto;
    
 }
@@ -43,17 +33,6 @@ color: #FFFFFF;
 
 }
 
-.icon2{
-    float: right;
-    border: solid white;
-    width: 50px;
-    text-align: center;
-    font-family: Roboto; 
-    color: white;
-    font-size: 20px;
-    line-height: 33px;
-   
-}
 
 @media only screen and (max-width: 1000px){
     .nav{

@@ -1,5 +1,4 @@
 import './Page3.css'
-import { ReactComponent as P3 } from './../../Images/p3.svg';
 
 const Page3 = () => {
     return (
@@ -16,11 +15,7 @@ const Page3 = () => {
                     </ol> 
                 </div>
             </div>
-            <div className="page3-row">
-                <h1>Technology that makes our products long lasting</h1>
-                <div className="p3"><P3 x="30%" y="30%" width="100%" /></div>
-                
-            </div>
+          
          
         </div>
         

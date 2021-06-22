@@ -10,7 +10,6 @@
 }
 
 .page2 h1{
-height: 94px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -18,6 +17,7 @@ font-size: 40px;
 line-height: 47px;
 text-align: center;
 text-indent: 1px;
+margin-bottom: 10%;
 }
 
 .thumbnails{
@@ -66,10 +66,47 @@ padding-left: 20px;
 }
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 800px){
  .page2 h1{
+    width: 90%;
+font-size: 24px;
+line-height: 29px;
+margin: auto;
+
+}
+}
+
+@media only screen and (max-width: 500px){
+ 
+.page2{
+     width: 85%;
+     max-width: 400px;
+     margin-top: 5%;
+}
+
+.page2 h1{
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 5%;
+}
+
+.thumbnails div{
+    width: 80%;
+    height: 120px;
+}
+
+.thumbnails div img{
+    object-fit: cover;
     width: 100%;
-font-size: 26px;
-line-height: 27px;
+    height: 100px;
 }
+
+.thumbnails div p{
+font-size: 12px;
+line-height: 12px;
+margin:0%;
 }
+
+
+}
+

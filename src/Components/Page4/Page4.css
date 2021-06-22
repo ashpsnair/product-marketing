@@ -49,6 +49,7 @@ padding: 3%;
 width: 150px;
 height: 50px;
 background: rgba(255, 255, 255, 0.77);
+border: solid #202E3B 1px ;
 border-radius: 40px;
 position: relative;
 top: 30%;
@@ -106,5 +107,124 @@ line-height: 20px;
 text-indent: 1px;
 color: #000000;
 font-family: Roboto;
+
+}
+
+
+@media only screen and (max-width: 1000px){
+
+   .p4img{
+      margin-bottom: 10%;
+   }
+
+   .p4img p{
+font-size: 28px;
+line-height: 26px;
+width: 500px;
+padding: 6%;
+   }
+
+   .p4img button{
+      width: 150px;
+height: 30px;
+font-size: 16px;
+top: 40%;
+right: 3%;
+
+   }
+
+.p4customer{
+    max-width: 800px;
+}
+
+.p4customer h1{
+   font-size: 32px;
+line-height: 30px;
+}
+
+}
+
+@media only screen and (max-width: 800px){
+   
+   .p4img p{
+font-size: 24px;
+line-height: 22px;
+width: 400px;
+padding: 8%;
+   }
+
+   .p4img button{
+      width: 120px;
+height: 30px;
+font-size: 12px;
+top: 40%;
+right: 5%;
+
+   }
+
+
+.p4customer h1{
+   font-size: 28px;
+line-height: 30px;
+}
+  
+   .customer {
+   width: 400px;
+height: 150px;}
+
+.customer img {
+   width: 80px;
+   height: 80px;}
+
+.customer-content{
+   font-size: 16px;
+line-height: 16px;
+}
+
+
+}
+
+@media only screen and (max-width: 500px){
+   
+   .p4img{
+height: 250px;
+width: 90%;
+   max-width: 500px;
+   }
+
+   .p4img div{
+      height: 150px;
+   }
+   .p4img p{
+      font-size: 18px;
+line-height: 20px;
+width: 100px;
+   }
+   
+   .p4img button{
+      width: 80px;
+height: 30px;
+font-size: 10px;
+
+   }
+
+   .p4customer h1{
+   font-size: 20px;
+line-height: 22px;
+}
+  
+   .customer {
+   width: 250px;
+height: 120px;}
+
+.customer img {
+   width: 50px;
+   height: 50px;}
+
+.customer-content{
+   font-size: 10px;
+line-height: 10px;
+}
+
 
 }
